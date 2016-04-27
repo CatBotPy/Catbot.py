@@ -34,7 +34,7 @@ DON'T use this config. It' s only here to show how `config.json` can look.
     "serverID": {
       "allowedChans": [],
       "allowedChansWithoutPrefix": [],
-      "asleep": False,
+      "asleep": false,
       "groups": {
         "admins": {
           "members": [],
