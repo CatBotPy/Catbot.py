@@ -30,17 +30,19 @@ DON'T use this config. It' s only here to show how `config.json` can look.
       "description": "The only purpose for this group is for the ID and description.\nEverybody is part of this group."
     }
   },
-  "servers" {
+  "servers": {
     "serverID": {
       "allowedChans": [],
       "allowedChansWithoutPrefix": [],
       "asleep": False,
-      "groups"{
-        "admins":
+      "groups": {
+        "admins": {
           "members": [],
           "roles": []
+          }
+        }
       }
     }
-  },
+  }
 }
 ```
